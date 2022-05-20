@@ -1,0 +1,10 @@
+---
+
+# when you call role based execution first it refers to meta - defaults - vars - tasks - based on business
+- 
+  hosts : AppServer
+
+  roles :
+     - nginx
+
+...
